@@ -10,6 +10,8 @@ import { Component } from '@angular/core';
     <ul>
       <li *ngFor="let arrItem of myArr"> {{ arrItem }} </li>
     </ul>
+    <p *ngIf="myArr ; else otherTmpl"> {{myObject.name}} confirms the list!</p>
+    <ng-template #otherTmpl> {{myObject.name}} does not wish to share what he likes!</ng-template>
 
   `,
   styleUrls: ['./new-component.component.css']
@@ -23,6 +25,7 @@ export class NewComponentComponent {
     location: 'UK'
   }
 
-  myArr = ['movies', 'series', 'online games']
+  // replace below myArr = false;  to display the ng-template #otherTmpl
+  myArr = ['movies', 'series', 'online games'];
 
 }
