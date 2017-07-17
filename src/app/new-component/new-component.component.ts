@@ -33,7 +33,7 @@ export class NewComponentComponent {
     location: 'UK'
   }
 
-  // replace below myArr = false;  to display the ng-template #otherTmpl
+  // replace below myArr = false;  to display the ng-template #otherVar
   myArr = ['movies', 'series', 'online games'];
   //-------------------
   myVar = false;
