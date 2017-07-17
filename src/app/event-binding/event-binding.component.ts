@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <h1> Event binding </h1>
 
-    <button (click)="myEvent($event)">My Event Button</button>
+    <button (mouseenter)="myEvent($event)">My Event Button</button>
   `,
   styleUrls: ['./event-binding.component.css']
 })
