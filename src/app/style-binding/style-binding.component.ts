@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-style-binding',
   template: `
 
-    <h1 [style.color]="titleStyle">Style binding example.</h1>
+    <h1 [style.color]="titleStyle ? 'green' : 'pink'">Style binding example.</h1>
 
   `,
   styles: [`
@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StyleBindingComponent implements OnInit {
 
-  titleStyle = 'red';
+  titleStyle = true;
 
   constructor() { }
 
