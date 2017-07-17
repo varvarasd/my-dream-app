@@ -7,6 +7,7 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { CssStylesComponent } from './css-styles/css-styles.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
     EventBindingComponent,
     CssStylesComponent,
     ClassBindingComponent,
+    StyleBindingComponent,
   ],
   imports: [
     BrowserModule
