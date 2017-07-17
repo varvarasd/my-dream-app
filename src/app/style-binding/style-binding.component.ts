@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-style-binding',
   template: `
 
-    <h1 [ngStyle]="titleStyles">Style binding example.</h1>
+    <h1 [ngStyle]="titleStyles">Multi style binding example.</h1>
 
   `,
   styles: [`
