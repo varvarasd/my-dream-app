@@ -9,6 +9,7 @@ import { CssStylesComponent } from './css-styles/css-styles.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { DataService } from './data.service';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DataService } from './data.service';
     CssStylesComponent,
     ClassBindingComponent,
     StyleBindingComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule
