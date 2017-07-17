@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StyleBindingComponent implements OnInit {
 
-  titleStyle = true;
+  titleStyle = false;
 
   constructor() { }
 
