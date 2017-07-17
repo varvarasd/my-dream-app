@@ -8,7 +8,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { CssStylesComponent } from './css-styles/css-styles.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
-
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
